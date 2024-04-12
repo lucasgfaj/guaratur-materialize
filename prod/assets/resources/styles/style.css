@@ -11,3 +11,41 @@ body {
 main {
     flex: 1 0 auto;
 }
+
+.font-bold {
+  font-weight: bold;
+
+}
+
+.link-acomodacoes{
+    color: inherit;
+}
+
+.custom-height {
+    height: 12.5rem;
+  }
+
+  .custom-height-card {
+    height: 14.375rem; /* Garante que a altura seja ajustada dinamicamente */
+  } 
+
+  .custom-overflow-card {
+    max-height: 200px; overflow-y: auto;
+  }
+.estrelas input[type=radio] {
+  display: none;
+}
+.estrelas label i.fa{
+  font-size: 2.5em
+}
+.estrelas label i.fa:before {
+  content:'\f005';
+  color: #FC0;
+}
+.estrelas input[type=radio]:checked ~ label i.fa:before {
+  color: #CCC;
+}
+
+.width {
+  width: 100%;
+}
