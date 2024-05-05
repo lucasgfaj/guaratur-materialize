@@ -53,6 +53,41 @@ main {
     }
   }
 
-  .descricao-galeria { font-size: 1.375rem;  margin-top: 1rem; margin-bottom: 1rem; margin-right: 17%; margin-left: 17%; }
-  .descricao-galeria h2 { text-align:  center; font-size: 1.875rem;}
-  
+  .descricao-galeria {
+    font-size: 1.375rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-right: 17%;
+    margin-left: 17%;
+}
+
+.descricao-galeria h2 {
+    text-align: center;
+    font-size: 1.875rem;
+}
+
+/* Para telas de tamanho médio (tablet), 18px */
+@media only screen and (max-width: 768px) {
+    .descricao-galeria {
+        font-size: 1.125rem;
+        margin-right: 10%;
+        margin-left: 10%;
+    }
+
+    .descricao-galeria h2 {
+        font-size: 24px; /* Você pode ajustar esse valor conforme necessário */
+    }
+}
+
+/* Para telas pequenas (celulares), 16px */
+@media only screen and (max-width: 480px) {
+    .descricao-galeria {
+        font-size: 1rem;
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+
+    .descricao-galeria h2 {
+        font-size: 1.25rem; /* Você pode ajustar esse valor conforme necessário */
+    }
+}
