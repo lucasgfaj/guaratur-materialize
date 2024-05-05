@@ -14,7 +14,8 @@ main {
 
 .font-bold {
   font-weight: bold;
-
+  flex-shrink: 0;
+  flex-basis: auto;
 }
 
 .link-acomodacoes{
