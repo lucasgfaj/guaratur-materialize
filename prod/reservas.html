@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
         integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 
-   
+
     <!-- styles -->
     <link rel="stylesheet" href="assets/libraries/sass/materialize.css">
     <!-- <link rel="stylesheet" href="../node_modules/materialize-css/dist/css/materialize.min.css"> -->
@@ -41,6 +41,9 @@
                         <li>
                             <a href="/prod/acomodacoes.html">Acomodações</a>
                         </li>
+                        <li>
+                            <a href="#gallery">Galeria</a>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -52,10 +55,13 @@
     <ul class="sidenav" id="slide-out">
         <li>
             <a href="/prod/index.html">Início</a>
-        </li> 
+        </li>
         <li>
             <a href="/prod/acomodacoes.html">Acomodações</a>
-        </li> 
+        </li>
+        <li>
+            <a href="#gallery">Galeria</a>
+        </li>
     </ul>
     <!-- painel de navegação lateral -->
 
@@ -63,38 +69,117 @@
     <!-- main -->
     <main>
 
-          <!-- galeria de cartões de reservas -->
-          <div class="gallery-flex ">
-            <div class="card">
-                <img src="https://res.cloudinary.com/dc4rm6uuw/image/upload/v1712878608/3cbe036e5bd6911911795fbd2e323298d3149a3b_dtwfoi.jpg" class="responsive-img" alt="Acomodação 1">
-                <div class="card-content card-panel">
-                    <span class="card-title">Lugar Relaxante</span>
-                    <p class="flow-text">01/05/2029</p>
-                </div>
-            </div>
-            <div class="card">
-                <img src="https://res.cloudinary.com/dc4rm6uuw/image/upload/v1712878607/fachada_hib4qp.jpg" class="responsive-img" alt="Acomodação 1">
-                <div class="card-content card-panel">
-                    <span class="card-title">Lugar Relaxante</span>
-                    <p class="flow-text"> 30/09/2024</p>
-                </div>
-            </div>
+        <section class="section grey lighten-4">
+            <div class="container">
+                <div class="gallery-flex">
+                    <div class="card col s12 m6 l4">
+                        <div class="card-image">
+                            <img src="https://res.cloudinary.com/dc4rm6uuw/image/upload/v1712878608/3cbe036e5bd6911911795fbd2e323298d3149a3b_dtwfoi.jpg"
+                                alt="Acomodação 1">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title font-bold black-text">Hotel Adria Premium</span>
+                            <p class="flow-text">29/10/2024</p>
+                        </div>
+                    </div>
 
-            <div class="card">
-                <img src="https://res.cloudinary.com/dc4rm6uuw/image/upload/v1712878607/ibis-guarapuava_rptpez.jpg" class="responsive-img" alt="Acomodação 1">
-                <div class="card-content card-panel">
-                    <span class="card-title">Lugar Relaxante</span>
-                    <p class="flow-text">12/05/2024</p>
+                    <div class="card col s12 m6 l4">
+                        <div class="card-image">
+                            <img src="https://res.cloudinary.com/dc4rm6uuw/image/upload/v1712878607/fachada_hib4qp.jpg"
+                                class="responsive-img" alt="Acomodação 2">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title">Hotel Slim</span>
+                            <p class="flow-text">01/01/2026</p>
+                        </div>
+                    </div>
+
+                    <div class="card col s12 m6 l4">
+                        <div class="card-image">
+                            <img src="https://res.cloudinary.com/dc4rm6uuw/image/upload/v1712878607/nbmrq3a7pvtaevirstmf.jpg"
+                                class="responsive-img" alt="Acomodação 1">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title">Hotel Rocha</span>
+                            <p class="flow-text">01/08/2024</p>
+                        </div>
+                    </div>
+
+                    <div class="card col s12 m6 l4">
+                        <div class="card-image">
+                            <img src="https://res.cloudinary.com/dc4rm6uuw/image/upload/v1712878607/img-hotel-01-g_pfzvuz.jpg"
+                                class="responsive-img" alt="Acomodação 1">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title">Hotel San Marino Palace</span>
+                            <p class="flow-text">01/05/2025</p>
+                        </div>
+                    </div>
+
+                    <!-- <div class="card col s12 m6 l4">
+                        <div class="card-image">
+                            <img src="https://res.cloudinary.com/dc4rm6uuw/image/upload/v1712878607/ibis-guarapuava_rptpez.jpg"
+                                class="responsive-img" alt="Acomodação 3">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title">Hotel Ibis</span>
+                            <p class="flow-text">01/05/2029</p>
+                        </div>
+                    </div>
+
+                    <div class="card col s12 m6 l4">
+                        <div class="card-image">
+                            <img src="https://res.cloudinary.com/dc4rm6uuw/image/upload/v1712878607/pousada-vollweiter_y3pjqt.jpg"
+                                class="responsive-img" alt="Acomodação 1">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title">Pousada Vollweiter</span>
+                            <p class="flow-text">01/05/2029</p>
+                        </div>
+                    </div> -->
+                    <!-- Adicione os outros cartões com a mesma estrutura -->
                 </div>
             </div>
-            
-            
-            
-            <!-- Adicione mais cartões conforme necessário -->
-        </div>
-        <!-- galeria de cartões de reservas -->
+        </section>
 
-     
+        <!-- section - galeria -->
+        <section id="gallery" class="section scrollspy">
+            <div class="container">
+                <h4 class="center">
+                    <span class="blue-grey-text">Galeria de Fotos</span>
+                </h4>
+                <div class="row">
+                    <div class="col s12 m3">
+                        <img class="materialboxed responsive-img" src="assets/resources/images/4.jpg" alt="">
+                    </div>
+                    <div class="col s12 m3">
+                        <img class="materialboxed responsive-img" src="assets/resources/images/2.jpg" alt="">
+                    </div>
+                    <div class="col s12 m3">
+                        <img class="materialboxed responsive-img" src="assets/resources/images/3.jpg" alt="">
+                    </div>
+                    <div class="col s12 m3">
+                        <img class="materialboxed responsive-img" src="assets/resources/images/4.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col s12 m3">
+                        <img class="materialboxed responsive-img" src="assets/resources/images/9.jpg" alt="">
+                    </div>
+                    <div class="col s12 m3">
+                        <img class="materialboxed responsive-img" src="assets/resources/images/7.jpg" alt="">
+                    </div>
+                    <div class="col s12 m3">
+                        <img class="materialboxed responsive-img" src="assets/resources/images/9.jpg" alt="">
+                    </div>
+                    <div class="col s12 m3">
+                        <img class="materialboxed responsive-img" src="assets/resources/images/8.JPG" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- section - galeria -->
     </main>
     <!-- main -->
 
