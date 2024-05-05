@@ -52,3 +52,7 @@ main {
       flex-basis: 22%; 
     }
   }
+
+  .descricao-galeria { font-size: 1.375rem;  margin-top: 1rem; margin-bottom: 1rem; margin-right: 17%; margin-left: 17%; }
+  .descricao-galeria h2 { text-align:  center; font-size: 1.875rem;}
+  
